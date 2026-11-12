@@ -1,0 +1,41 @@
+body{
+    background-image: url("img/BurgerBackground.png");
+    background-size: 100% auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.Header{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+    background-color: #C36411;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 45%;
+ border:3px solid #2F2525;
+}
+.America{
+    padding-left:21%;
+    padding-top: 1.7%;
+    width: 12%;
+    height: 10%;
+}
+.SuperDiva{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+}
+.Ingredients{
+background-color:#C47424;
+border:3px solid #2F2525;
+}
+.IngredientsText{
+    font-size:10px;
+}
+.Text{
+background-color:#C47424;
+border:3px solid #2F2525;
+}
