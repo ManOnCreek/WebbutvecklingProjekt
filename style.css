@@ -18,7 +18,7 @@ flex-direction: row;
  border:3px solid #2F2525;
 }
 .America{
-    padding-left:21%;
+    padding-left:31.5%;
     padding-top: 1.7%;
     width: 12%;
     height: 10%;
@@ -26,16 +26,75 @@ flex-direction: row;
 .SuperDiva{
     display: flex;
     flex-direction: row;
-    gap:10%;
+    gap: 5%;
 }
 .Ingredients{
+    display: flex;
+    flex-direction: row;
 background-color:#C47424;
 border:3px solid #2F2525;
+width:65%;
+
+gap: 50%;
 }
 .IngredientsText{
-    font-size:10px;
+    font-size:15px;
+}
+.IngredientsTextSub{
+    font-size:13px;
 }
 .Text{
 background-color:#C47424;
 border:3px solid #2F2525;
+width:25%;
+}
+
+
+
+.Instruktioner{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+
+
+.InstruktionerText{
+background-color:#C47424;
+border:3px solid #2F2525;
+width: 65%;
+display: flex;
+flex-direction: column;
+}
+.InstruktionerTitle{
+    font-size:15px;
+}
+.InstruktionerSubText{
+    font-size:13px;
+    margin: 2%;
+}
+
+.InstruktionerHöger{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    gap:5%;
+}
+
+.InstruktionerBild{
+background-color:#C47424;
+border:3px solid #2F2525;
+
+margin-left:20%;
+width: 230px;
+height:155px;
+}
+.InstruktionerLinks{
+background-color:#C47424;
+border:3px solid #2F2525;
+width: 315px;
+height:200px;
 }
