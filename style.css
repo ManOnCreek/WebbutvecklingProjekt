@@ -104,8 +104,14 @@ height:200px;
     object-fit: contain;
 }
 .Footer{
-background-color:#C47424;
+background-color:#C36411;
 border:3px solid #2F2525;
 height: 100px;
 width: 95.5%;
+
+font-size: 10px;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:space-between;
 }
