@@ -99,6 +99,8 @@ width: 315px;
 height:200px;
 display:flex;
 flex-direction: column;
+align-items: start;
+justify-content: space-between;
 }
 .BurgerIngImage{
     width: 100%;
