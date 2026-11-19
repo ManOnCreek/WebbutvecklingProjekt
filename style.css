@@ -103,3 +103,9 @@ height:200px;
     height: 100%;
     object-fit: contain;
 }
+.Footer{
+background-color:#C47424;
+border:3px solid #2F2525;
+height: 100px;
+width: 95.5%;
+}
