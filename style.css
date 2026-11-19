@@ -1,6 +1,6 @@
 body{
     background-image: url("img/BurgerBackground.png");
-    background-size: 100% auto;
+    background-size: 125% auto;
 }
 header{
     display: flex;
@@ -97,6 +97,8 @@ background-color:#C47424;
 border:3px solid #2F2525;
 width: 315px;
 height:200px;
+display:flex;
+flex-direction: column;
 }
 .BurgerIngImage{
     width: 100%;
@@ -109,9 +111,10 @@ border:3px solid #2F2525;
 height: 100px;
 width: 95.5%;
 
-font-size: 10px;
+font-size: 20px;
+gap: 5px;
 display:flex;
 flex-direction:row;
 align-items:center;
-justify-content:space-between;
+justify-content:center;
 }
